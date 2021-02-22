@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metadata",
+  "info": {
+    "name": "Metadata",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "heroImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "structuredData": {
+      "type": "json"
+    },
+    "label1": {
+      "type": "string"
+    },
+    "data1": {
+      "type": "string"
+    },
+    "label2": {
+      "type": "string"
+    },
+    "data2": {
+      "type": "string"
+    },
+    "extendedTitle": {
+      "type": "string"
+    }
+  }
+}

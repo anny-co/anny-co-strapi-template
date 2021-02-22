@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_layout_section_themes",
+  "info": {
+    "name": "SectionTheme",
+    "icon": "broom",
+    "description": "SectionThemes allow you to override specific theming for sections"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "default": "var(--neutral-a)"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "var(--dark)"
+    },
+    "accent": {
+      "type": "string",
+      "default": "var(--primary)"
+    },
+    "cornerDetails": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.corner-details"
+    },
+    "separators": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-separators"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "tileBackground": {
+      "type": "boolean",
+      "default": false
+    },
+    "backgroundStyle": {
+      "type": "json"
+    }
+  }
+}

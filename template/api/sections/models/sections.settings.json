@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "name": "Sections",
+    "description": "Declaring sections inside the sections collection type allows us to reference and reuse certain sections inside different pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "elements": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.main-feature",
+        "sections.feature-row-group",
+        "sections.feature-column-group",
+        "sections.rich-text",
+        "sections.hero",
+        "sections.call-to-action",
+        "sections.pricing",
+        "sections.testimonial-group",
+        "sections.partners",
+        "sections.header-section",
+        "sections.team",
+        "sections.media-section"
+      ]
+    },
+    "label": {
+      "type": "string"
+    },
+    "page": {
+      "via": "include",
+      "model": "pages"
+    },
+    "locale": {
+      "type": "enumeration",
+      "enum": ["de", "en", "fr"],
+      "default": "de"
+    }
+  }
+}

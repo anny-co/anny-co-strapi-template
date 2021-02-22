@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Pages",
+    "description": "Pages are the main subject of this API. Each content is either contained inside or references by a page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "slug": {
+      "type": "uid",
+      "required": false,
+      "targetField": "shortName"
+    },
+    "shortName": {
+      "type": "string"
+    },
+    "elements": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.hero",
+        "sections.feature-row-group",
+        "sections.feature-column-group",
+        "sections.pricing",
+        "sections.rich-text",
+        "sections.testimonial-group",
+        "sections.partners",
+        "sections.main-feature",
+        "sections.call-to-action",
+        "sections.section-reference",
+        "sections.header-section",
+        "sections.team",
+        "sections.media-section"
+      ]
+    },
+    "navigation": {
+      "model": "navigations"
+    },
+    "footer": {
+      "model": "footers"
+    },
+    "include": {
+      "collection": "sections",
+      "via": "page"
+    },
+    "locale": {
+      "type": "enumeration",
+      "enum": ["de", "en", "fr"],
+      "default": "de"
+    },
+    "metadata": {
+      "model": "metadata"
+    }
+  }
+}

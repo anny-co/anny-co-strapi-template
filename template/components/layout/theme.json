@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_layout_themes",
+  "info": {
+    "name": "Theme",
+    "icon": "paint-brush",
+    "description": "Theme encapsulates specific color configurations inside a component to use with Buttons, Sections, and more"
+  },
+  "options": {},
+  "attributes": {
+    "anny": {
+      "type": "string",
+      "default": "#333366"
+    },
+    "dark": {
+      "type": "string",
+      "default": "#131333"
+    },
+    "primary": {
+      "type": "string",
+      "default": "#2b6af8"
+    },
+    "primaryMuted": {
+      "type": "string",
+      "default": "#c0d0f4"
+    },
+    "secondary": {
+      "type": "string",
+      "default": "#ff9814"
+    },
+    "secondaryMuted": {
+      "type": "string",
+      "default": "#ffc478"
+    },
+    "neutralA": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "neutralB": {
+      "type": "string",
+      "default": "#f3f3f3"
+    }
+  }
+}

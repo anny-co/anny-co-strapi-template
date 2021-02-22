@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_button_themes",
+  "info": {
+    "name": "ButtonTheme",
+    "icon": "broom"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "default": "#2b6af8"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "borderColor": {
+      "type": "string",
+      "default": "#2b6af8"
+    }
+  }
+}

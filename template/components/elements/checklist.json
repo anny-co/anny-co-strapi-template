@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_checklists",
+  "info": {
+    "name": "Checklist",
+    "description": "A Checklist holds a set of ChecklistItem components",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.checklist-item"
+    }
+  }
+}

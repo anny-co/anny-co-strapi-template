@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_rich_navigation_items",
+  "info": {
+    "name": "RichNavigationItem",
+    "icon": "align-left",
+    "description": "A RichNavigationItem is the way to model hierarchical navigations"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "hideLabel": {
+      "type": "boolean",
+      "default": false
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.navigation-column"
+    },
+    "linkSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.navigation-link-section"
+    },
+    "subNavigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.sub-navigation"
+    }
+  }
+}

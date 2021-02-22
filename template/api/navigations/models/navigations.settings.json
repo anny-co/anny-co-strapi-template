@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigations",
+  "info": {
+    "name": "Navigations",
+    "description": "Navigations contains instances of a navigation such that we can exchange which page uses which navigation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "logoUrl": {
+      "type": "string",
+      "default": "/"
+    },
+    "label": {
+      "type": "string"
+    },
+    "elements": {
+      "type": "dynamiczone",
+      "components": [
+        "elements.navigation-item",
+        "links.link",
+        "links.button",
+        "layout.spacer"
+      ]
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.navigation-theme"
+    }
+  }
+}

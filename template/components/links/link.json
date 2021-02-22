@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_links_links",
+  "info": {
+    "name": "Link",
+    "icon": "external-link-alt",
+    "description": "A Link is an action presented to the user"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "showArrow": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "name": "Global",
+    "description": "Global configuration of the pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "favicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "darkTheme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.theme"
+    },
+    "lightTheme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.theme"
+    },
+    "navigation": {
+      "model": "navigations"
+    },
+    "footer": {
+      "model": "footers"
+    },
+    "metadata": {
+      "model": "metadata"
+    }
+  }
+}

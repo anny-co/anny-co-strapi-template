@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_elements_team_members",
+  "info": {
+    "name": "TeamMember",
+    "icon": "user",
+    "description": "A TeamMember is a singular team member with picture, text and social links"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "linkedIn": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

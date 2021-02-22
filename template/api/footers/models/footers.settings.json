@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footers",
+    "description": "Footers contains instances of footers such that we can exchange what footer is used on specific pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "footnote": {
+      "type": "string"
+    },
+    "spanFlexbox": {
+      "type": "boolean"
+    },
+    "columns": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.footer-column"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

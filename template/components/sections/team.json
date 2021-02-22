@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_teams",
+  "info": {
+    "name": "Team",
+    "icon": "users",
+    "description": "A Team section just lists team members with small pictures and descriptions, as well as social links"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "teamMembers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.team-member"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

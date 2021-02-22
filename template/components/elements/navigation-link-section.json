@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_navigation_link_section",
+  "info": {
+    "name": "NavigationLinkSection",
+    "icon": "arrow-down",
+    "description": "A NavigationLinkSection is a less fancy version of a NavigationColumn without icons in front of links"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hideTitle": {
+      "type": "boolean",
+      "default": false
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}
