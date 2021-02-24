@@ -7,15 +7,15 @@
   },
   "options": {},
   "attributes": {
-    "theme": {
-      "type": "component",
-      "repeatable": false,
-      "component": "layout.section-theme"
-    },
     "media": {
       "type": "component",
       "repeatable": false,
       "component": "elements.media"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
     }
   }
 }

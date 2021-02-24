@@ -11,13 +11,9 @@
       "type": "string"
     },
     "logo": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
     },
     "url": {
       "type": "string"

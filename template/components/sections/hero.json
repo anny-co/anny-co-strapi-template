@@ -13,7 +13,7 @@
     "description": {
       "type": "richtext"
     },
-    "picture": {
+    "media": {
       "type": "component",
       "repeatable": false,
       "component": "elements.media"

@@ -17,13 +17,9 @@
       "required": false
     },
     "picture": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
     },
     "text": {
       "type": "text"

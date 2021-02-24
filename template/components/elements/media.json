@@ -7,6 +7,15 @@
   },
   "options": {},
   "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
     "shadow": {
       "type": "boolean",
       "default": true
@@ -17,15 +26,6 @@
     },
     "style": {
       "type": "json"
-    },
-    "media": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": true
     }
   }
 }
