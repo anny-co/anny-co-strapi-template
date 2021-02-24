@@ -14,13 +14,9 @@
       "type": "richtext"
     },
     "picture": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
     },
     "cta": {
       "type": "component",
