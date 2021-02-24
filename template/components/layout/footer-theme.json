@@ -1,19 +1,19 @@
 {
-  "collectionName": "components_layout_plan_themes",
+  "collectionName": "components_layout_footer_themes",
   "info": {
-    "name": "PlanTheme",
-    "icon": "balance-scale",
-    "description": ""
+    "name": "FooterTheme",
+    "icon": "brush",
+    "description": "FooterThemes allow you to override the look of footers"
   },
   "options": {},
   "attributes": {
     "color": {
       "type": "string",
-      "default": "var(--neutral-a)"
+      "default": "var(--dark)"
     },
     "textColor": {
       "type": "string",
-      "default": "var(--dark)"
+      "default": "var(--neutral-a)"
     },
     "accent": {
       "type": "string",

@@ -11,6 +11,14 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "enumeration",
+      "enum": ["de", "en", "fr"],
+      "default": "de"
+    },
     "logo": {
       "model": "file",
       "via": "related",
@@ -23,9 +31,6 @@
     "logoUrl": {
       "type": "string",
       "default": "/"
-    },
-    "label": {
-      "type": "string"
     },
     "elements": {
       "type": "dynamiczone",
