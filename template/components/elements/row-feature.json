@@ -19,11 +19,14 @@
       "component": "links.button"
     },
     "media": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": ["images", "videos"],
-      "plugin": "upload",
-      "required": false
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "checklist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.checklist"
     },
     "order": {
       "type": "enumeration",

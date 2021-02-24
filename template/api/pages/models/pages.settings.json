@@ -12,9 +12,8 @@
   },
   "attributes": {
     "slug": {
-      "type": "uid",
-      "required": false,
-      "targetField": "shortName"
+      "type": "string",
+      "required": true
     },
     "shortName": {
       "type": "string"
@@ -34,7 +33,8 @@
         "sections.section-reference",
         "sections.header-section",
         "sections.team",
-        "sections.media-section"
+        "sections.media-section",
+        "sections.newsletter-section"
       ]
     },
     "navigation": {

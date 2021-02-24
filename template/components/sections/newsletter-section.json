@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_newsletter_sections",
+  "info": {
+    "name": "NewsletterSection",
+    "icon": "newspaper",
+    "description": "A NewsletterSection invites a user to subscribe to our newsletter. Note that the main functionality is implemented by the front-end!"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

@@ -25,7 +25,8 @@
         "sections.partners",
         "sections.header-section",
         "sections.team",
-        "sections.media-section"
+        "sections.media-section",
+        "sections.newsletter-section"
       ]
     },
     "label": {

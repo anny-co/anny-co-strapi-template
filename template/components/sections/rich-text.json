@@ -10,19 +10,15 @@
     "content": {
       "type": "richtext"
     },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
     "theme": {
       "type": "component",
       "repeatable": false,
       "component": "layout.section-theme"
-    },
-    "media": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
-      "plugin": "upload",
-      "required": false
     }
   }
 }

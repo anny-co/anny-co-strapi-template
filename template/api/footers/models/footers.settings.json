@@ -11,6 +11,14 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "enumeration",
+      "enum": ["de", "en", "fr"],
+      "default": "de"
+    },
     "logo": {
       "model": "file",
       "via": "related",
@@ -34,8 +42,15 @@
       "repeatable": true,
       "component": "elements.footer-column"
     },
-    "label": {
-      "type": "string"
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.social-media-link"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.footer-theme"
     }
   }
 }
