@@ -8,7 +8,7 @@
   "options": {},
   "attributes": {
     "question": {
-      "type": "richtext"
+      "type": "string"
     },
     "answer": {
       "type": "richtext"
