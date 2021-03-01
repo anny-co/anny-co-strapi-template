@@ -7,6 +7,10 @@
   },
   "options": {},
   "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
     "media": {
       "type": "component",
       "repeatable": false,

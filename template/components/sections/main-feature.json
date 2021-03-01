@@ -7,10 +7,9 @@
   },
   "options": {},
   "attributes": {
-    "subFeatures": {
-      "type": "component",
-      "repeatable": true,
-      "component": "elements.sub-feature"
+    "anchor": {
+      "type": "string",
+      "default": ""
     },
     "label": {
       "type": "string"
@@ -21,20 +20,25 @@
     "description": {
       "type": "richtext"
     },
-    "media": {
+    "list": {
       "type": "component",
-      "repeatable": false,
-      "component": "elements.media"
+      "component": "elements.checklist",
+      "repeatable": false
     },
     "action": {
       "type": "component",
       "repeatable": false,
       "component": "links.button"
     },
-    "list": {
+    "media": {
       "type": "component",
-      "component": "elements.checklist",
-      "repeatable": false
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "subFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.sub-feature"
     },
     "theme": {
       "type": "component",

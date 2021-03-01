@@ -8,15 +8,15 @@
   "attributes": {
     "color": {
       "type": "string",
-      "default": "#2b6af8"
+      "default": "var(--color)"
     },
     "textColor": {
       "type": "string",
-      "default": "#ffffff"
+      "default": "var(--text-color)"
     },
     "borderColor": {
       "type": "string",
-      "default": "#2b6af8"
+      "default": "var(--color)"
     }
   }
 }

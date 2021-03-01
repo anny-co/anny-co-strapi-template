@@ -26,7 +26,7 @@
     "action": {
       "type": "component",
       "repeatable": false,
-      "component": "links.link"
+      "component": "links.button"
     }
   }
 }

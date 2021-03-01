@@ -14,7 +14,7 @@
     "prefix": {
       "type": "enumeration",
       "enum": ["far", "fas", "fal", "fad", "fab"],
-      "default": "fas"
+      "default": "far"
     },
     "mask": {
       "type": "string"

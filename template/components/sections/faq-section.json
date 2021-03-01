@@ -1,15 +1,18 @@
 {
-  "collectionName": "components_sections_testimonial_groups",
+  "collectionName": "components_sections_faq_sections",
   "info": {
-    "name": "TestimonialGroup",
-    "icon": "user-friends",
-    "description": "A TestimonialGroup wraps several Testimonial element components with a title and a description"
+    "name": "FAQSection",
+    "icon": "question",
+    "description": "An FAQSection is a section that contains common questions and answers"
   },
   "options": {},
   "attributes": {
     "anchor": {
       "type": "string",
-      "default": ""
+      "default": "faq"
+    },
+    "label": {
+      "type": "string"
     },
     "title": {
       "type": "string"
@@ -17,10 +20,10 @@
     "description": {
       "type": "richtext"
     },
-    "testimonials": {
+    "elements": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.testimonial"
+      "component": "elements.faq"
     },
     "theme": {
       "type": "component",

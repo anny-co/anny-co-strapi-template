@@ -16,7 +16,7 @@
       "required": false
     },
     "topRight": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -25,7 +25,7 @@
       "required": false
     },
     "bottomLeft": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"
@@ -34,7 +34,7 @@
       "required": false
     },
     "bottomRight": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"

@@ -21,11 +21,12 @@
       "type": "enumeration",
       "enum": [
         "primary",
-        "accent",
+        "secondary",
         "flat",
         "outline",
         "custom"
-      ]
+      ],
+      "default": "primary"
     },
     "showArrow": {
       "type": "boolean",
