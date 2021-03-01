@@ -26,7 +26,10 @@
         "sections.header-section",
         "sections.team",
         "sections.media-section",
-        "sections.newsletter-section"
+        "sections.newsletter-section",
+        "sections.faq-section",
+        "sections.banner-section",
+        "sections.slot-component-section"
       ]
     },
     "label": {

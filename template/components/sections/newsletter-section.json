@@ -7,14 +7,22 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "anchor": {
+      "type": "string",
+      "default": "newsletter"
     },
     "label": {
       "type": "string"
     },
+    "title": {
+      "type": "string"
+    },
     "description": {
       "type": "richtext"
+    },
+    "newsletterFeedURL": {
+      "type": "string",
+      "required": true
     },
     "theme": {
       "type": "component",

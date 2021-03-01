@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_slot_component_sections",
+  "info": {
+    "name": "SlotComponentSection",
+    "icon": "universal-access",
+    "description": "A SlotComponentSection allows you to inject any client-side component into a safe space inside a page. This component can opt to respect theming, though it does not need to. Note that this component does not store any data!"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "componentName": {
+      "type": "string",
+      "required": true
+    },
+    "hidden": {
+      "type": "boolean",
+      "default": false
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

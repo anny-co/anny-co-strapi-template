@@ -7,6 +7,10 @@
   },
   "options": {},
   "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
     "title": {
       "type": "string"
     },

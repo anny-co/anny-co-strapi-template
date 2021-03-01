@@ -7,10 +7,14 @@
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
+    "anchor": {
+      "type": "string",
+      "default": ""
     },
     "label": {
+      "type": "string"
+    },
+    "title": {
       "type": "string"
     },
     "description": {
