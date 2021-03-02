@@ -37,7 +37,7 @@
         "sections.newsletter-section",
         "sections.faq-section",
         "sections.banner-section",
-        "sections.slot"
+        "sections.component-slot"
       ]
     },
     "navigation": {
