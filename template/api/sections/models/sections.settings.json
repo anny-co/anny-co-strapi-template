@@ -29,7 +29,7 @@
         "sections.newsletter-section",
         "sections.faq-section",
         "sections.banner-section",
-        "sections.slot-component-section"
+        "sections.component-slot"
       ]
     },
     "label": {
