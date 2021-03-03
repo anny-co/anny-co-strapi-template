@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_table_sections",
+  "info": {
+    "name": "TableSection",
+    "icon": "table",
+    "description": "A TableSection is a section with title and description, as well as a Markdown/HTML table"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "table": {
+      "type": "richtext"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}
