@@ -3,7 +3,7 @@
   "collectionName": "metadata",
   "info": {
     "name": "Metadata",
-    "description": ""
+    "description": "Metadata contains page-based SEO labels that are bound to a specific page"
   },
   "options": {
     "increments": true,
@@ -11,6 +11,9 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "label": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },

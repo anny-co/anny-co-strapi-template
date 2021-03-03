@@ -7,10 +7,6 @@
   },
   "options": {},
   "attributes": {
-    "anchor": {
-      "type": "string",
-      "default": ""
-    },
     "section": {
       "model": "sections"
     }
