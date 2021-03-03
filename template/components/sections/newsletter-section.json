@@ -24,6 +24,9 @@
       "type": "string",
       "required": true
     },
+    "notice": {
+      "type": "richtext"
+    },
     "theme": {
       "type": "component",
       "repeatable": false,
