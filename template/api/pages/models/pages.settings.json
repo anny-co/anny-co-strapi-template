@@ -49,8 +49,7 @@
       "model": "footers"
     },
     "include": {
-      "collection": "sections",
-      "via": "page"
+      "collection": "sections"
     },
     "locale": {
       "type": "enumeration",

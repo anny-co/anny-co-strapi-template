@@ -37,10 +37,6 @@
     "label": {
       "type": "string"
     },
-    "page": {
-      "via": "include",
-      "model": "pages"
-    },
     "locale": {
       "type": "enumeration",
       "enum": ["de", "en", "fr"],
