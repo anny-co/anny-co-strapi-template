@@ -1,13 +1,13 @@
-strapi template
+# anny-co-strapi-template
 
-A Strapi template to fuel the anny company's website with sparkling content.
+The bundled Strapi template for anny's shiny new user frontend! Fueled by coffee, Mate Mate, and red wine.
 
 ## Usage
 
 ```
 # Using Yarn
-yarn create strapi-app anny-strapi --template https://gitlab.com/anny.co/strapi-template
+yarn create strapi-app my-instance --template https://github.com/anny-co/anny-co-strapi-template
 
 # Or using the helm chart for strapi
-helm install anny-charts/strapi anny-strapi --set "template=https://gitlab.com/anny.co/strapi-template" -f ...
+helm install . my-instance --set "strapi.template=https://github.com/anny-co/anny-co-strapi-template" -f ...
 ```
