@@ -10,6 +10,11 @@
     "timestamps": true,
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "elements": {
       "type": "dynamiczone",
@@ -32,15 +37,20 @@
         "sections.component-slot",
         "sections.table-section",
         "sections.gallery"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "label": {
-      "type": "string"
-    },
-    "locale": {
-      "type": "enumeration",
-      "enum": ["de", "en", "fr"],
-      "default": "de"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
