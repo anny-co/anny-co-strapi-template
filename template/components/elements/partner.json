@@ -16,7 +16,7 @@
       "component": "elements.media"
     },
     "url": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

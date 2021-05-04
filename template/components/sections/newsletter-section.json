@@ -21,7 +21,7 @@
       "type": "richtext"
     },
     "newsletterFeedURL": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "notice": {

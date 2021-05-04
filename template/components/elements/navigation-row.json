@@ -30,7 +30,7 @@
       "type": "string"
     },
     "url": {
-      "type": "string"
+      "type": "text"
     },
     "disabled": {
       "type": "boolean",

@@ -8,10 +8,10 @@
   "options": {},
   "attributes": {
     "url": {
-      "type": "string"
+      "type": "text"
     },
     "text": {
-      "type": "string"
+      "type": "text"
     },
     "newTab": {
       "type": "boolean",
