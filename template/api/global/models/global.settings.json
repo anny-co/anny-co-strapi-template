@@ -10,6 +10,11 @@
     "timestamps": true,
     "draftAndPublish": true
   },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "favicon": {
       "model": "file",
@@ -18,17 +23,32 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "darkTheme": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.theme"
+      "component": "layout.theme",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "lightTheme": {
       "type": "component",
       "repeatable": false,
-      "component": "layout.theme"
+      "component": "layout.theme",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "navigation": {
       "model": "navigations"
