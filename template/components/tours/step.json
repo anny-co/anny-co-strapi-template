@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_tours_steps",
+  "info": {
+    "name": "Step",
+    "icon": "step-forward",
+    "description": "A Step is part of an ordered Tour"
+  },
+  "options": {},
+  "attributes": {
+    "target": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "highlight": {
+      "type": "boolean",
+      "default": false
+    },
+    "page": {
+      "type": "string",
+      "default": ""
+    },
+    "moreInfoLink": {
+      "type": "string",
+      "required": false
+    },
+    "moreInfoLabel": {
+      "type": "string",
+      "required": false
+    }
+  }
+}

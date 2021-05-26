@@ -10,11 +10,9 @@
     "media": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "shadow": {
       "type": "boolean",
@@ -26,6 +24,12 @@
     },
     "style": {
       "type": "json"
+    },
+    "embeddedContent": {
+      "type": "component",
+      "component": "elements.embedded-content",
+      "repeatable": false,
+      "required": false
     }
   }
 }

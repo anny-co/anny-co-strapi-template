@@ -46,6 +46,9 @@
     },
     "backgroundStyle": {
       "type": "json"
+    },
+    "sectionStyle": {
+      "type": "json"
     }
   }
 }

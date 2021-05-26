@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_elements_embedded_contents",
+  "info": {
+    "name": "EmbeddedContent",
+    "description": "EmbeddedContent Component for Media components",
+    "icon": "dumpster-fire"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "text",
+      "required": false
+    },
+    "options": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.embedding-options",
+      "required": false
+    }
+  }
+}

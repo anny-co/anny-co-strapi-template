@@ -54,7 +54,8 @@
         "sections.banner-section",
         "sections.component-slot",
         "sections.table-section",
-        "sections.gallery"
+        "sections.gallery",
+        "sections.embedded-content-section"
       ],
       "pluginOptions": {
         "i18n": {
