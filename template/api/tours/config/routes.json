@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/tours",
-      "handler": "tour.find",
+      "handler": "tours.find",
       "config": {
         "policies": []
       }
@@ -11,7 +11,7 @@
     {
       "method": "GET",
       "path": "/tours/count",
-      "handler": "tour.count",
+      "handler": "tours.count",
       "config": {
         "policies": []
       }
@@ -19,7 +19,7 @@
     {
       "method": "GET",
       "path": "/tours/:id",
-      "handler": "tour.findOne",
+      "handler": "tours.findOne",
       "config": {
         "policies": []
       }
@@ -27,7 +27,7 @@
     {
       "method": "POST",
       "path": "/tours",
-      "handler": "tour.create",
+      "handler": "tours.create",
       "config": {
         "policies": []
       }
@@ -35,7 +35,7 @@
     {
       "method": "PUT",
       "path": "/tours/:id",
-      "handler": "tour.update",
+      "handler": "tours.update",
       "config": {
         "policies": []
       }
@@ -43,7 +43,7 @@
     {
       "method": "DELETE",
       "path": "/tours/:id",
-      "handler": "tour.delete",
+      "handler": "tours.delete",
       "config": {
         "policies": []
       }
