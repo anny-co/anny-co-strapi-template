@@ -8,13 +8,13 @@
   "options": {},
   "attributes": {
     "link": {
-      "type": "text",
+      "type": "string",
       "required": false
     },
     "options": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.embedding-options",
+      "component": "elements.embedding-option",
       "required": false
     }
   }

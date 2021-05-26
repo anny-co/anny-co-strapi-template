@@ -3,7 +3,7 @@
   "info": {
     "name": "EmbeddedContentSection",
     "icon": "dumpster-fire",
-    "description": "An EmbeddedContentSection wraps "
+    "description": "An EmbeddedContentSection wraps an iframe with title, description or actions"
   },
   "options": {},
   "attributes": {
@@ -27,7 +27,7 @@
     "options": {
       "type": "component",
       "repeatable": false,
-      "component": "elements.embedding-options"
+      "component": "elements.embedding-option"
     },
     "action": {
       "type": "component",
