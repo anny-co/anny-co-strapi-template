@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_full_width_sections",
+  "info": {
+    "name": "FullWidthSection",
+    "icon": "crop",
+    "description": "A FullWidthSection spans the entire page horizontally with media, and potentially text on top"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.media"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

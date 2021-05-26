@@ -55,7 +55,8 @@
         "sections.component-slot",
         "sections.table-section",
         "sections.gallery",
-        "sections.embedded-content-section"
+        "sections.embedded-content-section",
+        "sections.full-width-section"
       ],
       "pluginOptions": {
         "i18n": {
