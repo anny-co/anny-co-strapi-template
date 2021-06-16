@@ -5,7 +5,7 @@
     "description": "Jobs collect all currently open job positions"
   },
   "options": {
-    "draftAndPublish": false,
+    "draftAndPublish": true,
     "increments": true,
     "timestamps": true,
     "comment": ""
