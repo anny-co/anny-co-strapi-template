@@ -22,7 +22,7 @@
     },
     "media": {
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "elements.media"
     },
     "theme": {
