@@ -33,6 +33,15 @@
         }
       }
     },
+    "enableChat": {
+      "type": "boolean",
+      "default": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
     "elements": {
       "type": "dynamiczone",
       "components": [
