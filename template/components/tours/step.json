@@ -22,11 +22,11 @@
       "type": "string",
       "default": ""
     },
-    "moreInfoLink": {
+    "moreInfoLabel": {
       "type": "string",
       "required": false
     },
-    "moreInfoLabel": {
+    "moreInfoLink": {
       "type": "string",
       "required": false
     }
