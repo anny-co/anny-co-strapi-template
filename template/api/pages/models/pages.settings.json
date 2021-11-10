@@ -23,7 +23,9 @@
         "i18n": {
           "localized": false
         }
-      }
+      },
+      "regex": "^(?!.*\/jobs\/.*|(?!.*\/u\/.*))",
+      "unique": false
     },
     "shortName": {
       "type": "string",
@@ -41,6 +43,15 @@
           "localized": true
         }
       }
+    },
+    "virtual": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "boolean",
+      "default": false
     },
     "elements": {
       "type": "dynamiczone",

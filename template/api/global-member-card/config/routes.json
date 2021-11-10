@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/global-member-card",
+      "handler": "global-member-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/global-member-card",
+      "handler": "global-member-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/global-member-card",
+      "handler": "global-member-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

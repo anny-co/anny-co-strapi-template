@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_member_cards",
+  "info": {
+    "name": "GlobalMemberCard"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "globalLinks": {
+      "type": "dynamiczone",
+      "components": []
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_members",
+  "info": {
+    "name": "TeamMembers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
+    },
+    "picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "links": {
+      "type": "dynamiczone",
+      "components": [
+        "links.team-member-social-link",
+        "links.team-member-link",
+        "links.social-media-link"
+      ]
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}
