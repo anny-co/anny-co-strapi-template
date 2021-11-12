@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/default-generic-portal",
+      "handler": "default-generic-portal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/default-generic-portal",
+      "handler": "default-generic-portal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/default-generic-portal",
+      "handler": "default-generic-portal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

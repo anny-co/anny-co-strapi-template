@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/team-members",
-      "handler": "team-members.find",
+      "path": "/portals",
+      "handler": "portals.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/team-members/count",
-      "handler": "team-members.count",
+      "path": "/portals/count",
+      "handler": "portals.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/team-members/:id",
-      "handler": "team-members.findOne",
+      "path": "/portals/:id",
+      "handler": "portals.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/team-members",
-      "handler": "team-members.create",
+      "path": "/portals",
+      "handler": "portals.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/team-members/:id",
-      "handler": "team-members.update",
+      "path": "/portals/:id",
+      "handler": "portals.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/team-members/:id",
-      "handler": "team-members.delete",
+      "path": "/portals/:id",
+      "handler": "portals.delete",
       "config": {
         "policies": []
       }

@@ -1,0 +1,68 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portals",
+  "info": {
+    "name": "Portals",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "organization",
+        "person",
+        "generic"
+      ],
+      "default": "generic"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "email"
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portal.social-link"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portal.link"
+    },
+    "picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.call-to-action"
+    },
+    "footer": {
+      "model": "footers"
+    }
+  }
+}

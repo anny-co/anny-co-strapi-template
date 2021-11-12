@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/default-organization-portal",
+      "handler": "default-organization-portal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/default-organization-portal",
+      "handler": "default-organization-portal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/default-organization-portal",
+      "handler": "default-organization-portal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

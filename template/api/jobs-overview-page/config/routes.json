@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/global-member-card",
-      "handler": "global-member-card.find",
+      "path": "/jobs-overview-page",
+      "handler": "jobs-overview-page.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/global-member-card",
-      "handler": "global-member-card.update",
+      "path": "/jobs-overview-page",
+      "handler": "jobs-overview-page.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/global-member-card",
-      "handler": "global-member-card.delete",
+      "path": "/jobs-overview-page",
+      "handler": "jobs-overview-page.delete",
       "config": {
         "policies": []
       }
