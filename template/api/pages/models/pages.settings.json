@@ -24,7 +24,7 @@
           "localized": false
         }
       },
-      "regex": "^(?!.*\/jobs\/.*|(?!.*\/u\/.*))",
+      "regex": "^((?!/jobs/|/u/).)*$",
       "unique": false
     },
     "shortName": {
