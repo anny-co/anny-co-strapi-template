@@ -63,6 +63,15 @@
     },
     "footer": {
       "model": "footers"
+    },
+    "vcard": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": true
     }
   }
 }
