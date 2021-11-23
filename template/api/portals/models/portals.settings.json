@@ -61,9 +61,6 @@
       "repeatable": false,
       "component": "sections.call-to-action"
     },
-    "footer": {
-      "model": "footers"
-    },
     "vcard": {
       "model": "file",
       "via": "related",
@@ -72,6 +69,12 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "footer": {
+      "model": "footers"
+    },
+    "metadata": {
+      "model": "metadata"
     }
   }
 }
