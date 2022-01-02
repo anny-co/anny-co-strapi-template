@@ -35,6 +35,11 @@
       "repeatable": false,
       "component": "elements.media"
     },
+    "order": {
+      "type": "enumeration",
+      "enum": ["textFirst", "mediaFirst"],
+      "default": "textFirst"
+    },
     "subFeatures": {
       "type": "component",
       "repeatable": true,
