@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_testimonial_groups",
+  "info": {
+    "displayName": "TestimonialGroup",
+    "icon": "user-friends",
+    "description": "A TestimonialGroup wraps several Testimonial element components with a title and a description"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "testimonials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.testimonial"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

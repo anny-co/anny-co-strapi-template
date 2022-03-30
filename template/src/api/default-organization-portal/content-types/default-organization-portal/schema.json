@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "default_organization_portals",
+  "info": {
+    "singularName": "default-organization-portal",
+    "pluralName": "default-organization-portals",
+    "displayName": "Default Organization Portal",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.call-to-action"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "metadata": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::metadata.metadata"
+    }
+  }
+}

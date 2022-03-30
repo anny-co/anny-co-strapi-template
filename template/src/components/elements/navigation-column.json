@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_navigation_columns",
+  "info": {
+    "displayName": "NavigationColumn",
+    "icon": "arrow-down",
+    "description": "A NavigationColumn contains NavigationRows inside a RichNavigationItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hideTitle": {
+      "type": "boolean",
+      "default": false
+    },
+    "rows": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.navigation-row"
+    }
+  }
+}

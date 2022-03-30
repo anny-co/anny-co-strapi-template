@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_example_medias",
+  "info": {
+    "displayName": "ExampleMedia",
+    "icon": "vial"
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

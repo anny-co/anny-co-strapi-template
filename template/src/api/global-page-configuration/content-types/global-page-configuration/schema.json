@@ -1,0 +1,68 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_page_configurations",
+  "info": {
+    "singularName": "global-page-configuration",
+    "pluralName": "global-page-configurations",
+    "displayName": "Global Page Configuration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "favicon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "required": false,
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "darkTheme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.theme",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "lightTheme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.theme",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "navigation": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::navigation.navigation"
+    },
+    "footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::footer.footer"
+    },
+    "metadata": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::metadata.metadata"
+    }
+  }
+}

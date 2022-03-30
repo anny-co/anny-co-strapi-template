@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_partners",
+  "info": {
+    "displayName": "Partner",
+    "icon": "award",
+    "description": "A Partner is a name and a logo of a partner of the product"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

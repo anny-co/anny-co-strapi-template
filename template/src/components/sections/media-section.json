@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_sections_media_sections",
+  "info": {
+    "displayName": "MediaSection",
+    "icon": "photo-video",
+    "description": "A MediaSection is a singular, capsulated media object as a section"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_section_separators",
+  "info": {
+    "displayName": "SectionSeprators",
+    "icon": "compress",
+    "description": "SectionSeparator components contain assets that visually separate sections"
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "bottom": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

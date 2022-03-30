@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_elements_checklist_items",
+  "info": {
+    "displayName": "ChecklistItem",
+    "description": "A Checklist Item holds a markdown list of items and an icon that is the list item indicator",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "faIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.font-awesome-icon"
+    },
+    "tooltip": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

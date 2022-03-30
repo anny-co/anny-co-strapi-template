@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_elements_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "icon": "user-check",
+    "description": "A Testimonial contains a quote of an Author and a logo of the company the author represents, as well as an optional link to said company"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "picture": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "text": {
+      "type": "text"
+    },
+    "authorName": {
+      "type": "string"
+    },
+    "authorTitle": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    }
+  }
+}

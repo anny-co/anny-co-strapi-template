@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_layout_footer_themes",
+  "info": {
+    "displayName": "FooterTheme",
+    "icon": "brush",
+    "description": "FooterThemes allow you to override the look of footers"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "default": "var(--dark)"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "var(--neutral)"
+    },
+    "accent": {
+      "type": "string",
+      "default": "var(--primary)"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    },
+    "tileBackground": {
+      "type": "boolean",
+      "default": true
+    },
+    "backgroundStyle": {
+      "type": "json"
+    }
+  }
+}

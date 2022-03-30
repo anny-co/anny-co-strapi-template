@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_elements_column_features",
+  "info": {
+    "displayName": "ColumnFeature",
+    "icon": "long-arrow-alt-down",
+    "description": "A ColumnFeature is an element of a FeatureGroup that is vertically oriented"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "checklist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.checklist"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_partners",
+  "info": {
+    "displayName": "Partners",
+    "icon": "users",
+    "description": "A Partners section wraps several Partner element components"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": "partners"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.partner"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

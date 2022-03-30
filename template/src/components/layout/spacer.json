@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_layout_spacers",
+  "info": {
+    "displayName": "Spacer",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "enabled": {
+      "type": "boolean"
+    }
+  }
+}

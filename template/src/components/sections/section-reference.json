@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_section_references",
+  "info": {
+    "displayName": "SectionReference",
+    "icon": "link",
+    "description": "A SectionReference is a shallow component referencing a Section collection type in order to reuse sections on different sites while maintaining the ability to position the section at a specific place in the site"
+  },
+  "options": {},
+  "attributes": {
+    "section": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section.section"
+    }
+  }
+}

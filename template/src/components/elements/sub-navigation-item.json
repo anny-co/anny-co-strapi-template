@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_elements_sub_navigation_items",
+  "info": {
+    "displayName": "SubNavigationItem",
+    "description": "A SubNavigationItem is part of a SubNavigation inside a rich navigation item",
+    "icon": "sitemap"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "text",
+      "required": true
+    },
+    "faIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.font-awesome-icon"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": false
+    }
+  }
+}

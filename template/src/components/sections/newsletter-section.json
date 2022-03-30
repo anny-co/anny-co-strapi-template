@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_sections_newsletter_sections",
+  "info": {
+    "displayName": "NewsletterSection",
+    "icon": "newspaper",
+    "description": "A NewsletterSection invites a user to subscribe to our newsletter. Note that the main functionality is implemented by the front-end!"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": "newsletter"
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "newsletterFeedURL": {
+      "type": "text",
+      "required": true
+    },
+    "notice": {
+      "type": "richtext"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

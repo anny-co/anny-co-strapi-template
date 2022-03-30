@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "heading",
+    "description": "A hero is (almost always) the first content section on a page"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "secondaryCta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

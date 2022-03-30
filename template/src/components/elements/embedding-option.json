@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_embedding_options",
+  "info": {
+    "displayName": "EmbeddingOptions",
+    "description": "A Media element wraps a strapi media object and adds styling and configurability to it",
+    "icon": "crop-alt"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "json"
+    },
+    "style": {
+      "type": "json"
+    },
+    "iframeCode": {
+      "type": "richtext",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_sections_call_to_actions",
+  "info": {
+    "displayName": "CallToAction",
+    "icon": "hand-paper",
+    "description": "A CallToAction section holds a title, a description, two call-to-action buttons and a set of "
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "primaryCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "secondaryCTA": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    },
+    "references": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.sub-feature"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

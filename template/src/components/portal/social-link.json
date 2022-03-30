@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_portals_social_links",
+  "info": {
+    "displayName": "SocialLink",
+    "icon": "share-alt"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.font-awesome-icon"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_layout_themes",
+  "info": {
+    "displayName": "Theme (CSS Variables: Space-separated RGB channels triplet)",
+    "icon": "paint-brush",
+    "description": "CSS Variables as space-separated RGB channels triplet. Theme encapsulates specific color configurations inside a component to use with Buttons, Sections, and more"
+  },
+  "options": {},
+  "attributes": {
+    "anny": {
+      "type": "string",
+      "default": "51 51 102",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    },
+    "dark": {
+      "type": "string",
+      "default": "19 19 51",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    },
+    "primary": {
+      "type": "string",
+      "default": "43 106 248",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    },
+    "primaryMuted": {
+      "type": "string",
+      "default": "192 208 244",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    },
+    "secondary": {
+      "type": "string",
+      "default": "255 152 20",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    },
+    "secondaryMuted": {
+      "type": "string",
+      "default": "255 196 120",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    },
+    "neutral": {
+      "type": "string",
+      "default": "255 255 255",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    },
+    "neutralMuted": {
+      "type": "string",
+      "default": "243 243 243",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
+    }
+  }
+}

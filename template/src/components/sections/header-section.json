@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_sections_header_sections",
+  "info": {
+    "displayName": "HeaderSection",
+    "icon": "horse-head",
+    "description": "A HeaderSection is used when a fully-fledged Hero component is not applicable to start a page"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

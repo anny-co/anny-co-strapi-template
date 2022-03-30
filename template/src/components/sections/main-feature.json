@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_sections_main_features",
+  "info": {
+    "displayName": "MainFeature",
+    "icon": "archway",
+    "description": "A MainFeature is a big content section that highlights a particular strong feature among several smaller subfeatures"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "list": {
+      "type": "component",
+      "component": "elements.checklist",
+      "repeatable": false
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "order": {
+      "type": "enumeration",
+      "enum": ["textFirst", "mediaFirst"],
+      "default": "textFirst"
+    },
+    "subFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.sub-feature"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

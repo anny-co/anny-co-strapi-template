@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_contact_links",
+  "info": {
+    "displayName": "ContactLink",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "vcard": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}
