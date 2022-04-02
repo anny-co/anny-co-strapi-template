@@ -3,7 +3,7 @@
   "info": {
     "name": "Banner",
     "icon": "flag",
-    "description": "A BannerFlag is a notification banner usually located at the top of the page. You have to ensure that this Element is the first inside a dynamic zone to use it accordingly."
+    "description": "A Banner is a notification banner usually located at the top of the page. You have to ensure that this Element is the first inside a dynamic zone to use it accordingly."
   },
   "options": {},
   "attributes": {

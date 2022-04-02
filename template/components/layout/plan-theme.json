@@ -9,7 +9,7 @@
   "attributes": {
     "color": {
       "type": "string",
-      "default": "var(--neutral-a)"
+      "default": "var(--neutral)"
     },
     "textColor": {
       "type": "string",

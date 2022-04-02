@@ -9,11 +9,11 @@
   "attributes": {
     "leaderTextColor": {
       "type": "string",
-      "default": "var(--neutral-a)"
+      "default": "var(--neutral)"
     },
     "richItemColor": {
       "type": "string",
-      "default": "var(--neutral-a)"
+      "default": "var(--neutral)"
     },
     "richItemTextColor": {
       "type": "string",
@@ -25,7 +25,7 @@
     },
     "richItemSubNavigationColor": {
       "type": "string",
-      "default": "var(--neutral-b)"
+      "default": "var(--neutral-muted)"
     },
     "richItemSubNavigationTextColor": {
       "type": "string",

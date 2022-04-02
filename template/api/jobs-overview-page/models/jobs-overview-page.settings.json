@@ -48,7 +48,8 @@
         "sections.table-section",
         "sections.gallery",
         "sections.embedded-content-section",
-        "sections.full-width-section"
+        "sections.full-width-section",
+        "sections.anny-widget-section"
       ],
       "pluginOptions": {
         "i18n": {

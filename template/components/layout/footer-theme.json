@@ -13,7 +13,7 @@
     },
     "textColor": {
       "type": "string",
-      "default": "var(--neutral-a)"
+      "default": "var(--neutral)"
     },
     "accent": {
       "type": "string",

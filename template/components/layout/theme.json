@@ -1,43 +1,51 @@
 {
   "collectionName": "components_layout_themes",
   "info": {
-    "name": "Theme",
+    "name": "Theme (CSS Variables: Space-separated RGB channels triplet)",
     "icon": "paint-brush",
-    "description": "Theme encapsulates specific color configurations inside a component to use with Buttons, Sections, and more"
+    "description": "CSS Variables as space-separated RGB channels triplet. Theme encapsulates specific color configurations inside a component to use with Buttons, Sections, and more"
   },
   "options": {},
   "attributes": {
     "anny": {
       "type": "string",
-      "default": "#333366"
+      "default": "51 51 102",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     },
     "dark": {
       "type": "string",
-      "default": "#131333"
+      "default": "19 19 51",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     },
     "primary": {
       "type": "string",
-      "default": "#2b6af8"
+      "default": "43 106 248",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     },
     "primaryMuted": {
       "type": "string",
-      "default": "#c0d0f4"
+      "default": "192 208 244",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     },
     "secondary": {
       "type": "string",
-      "default": "#ff9814"
+      "default": "255 152 20",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     },
     "secondaryMuted": {
       "type": "string",
-      "default": "#ffc478"
+      "default": "255 196 120",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     },
-    "neutralA": {
+    "neutral": {
       "type": "string",
-      "default": "#ffffff"
+      "default": "255 255 255",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     },
-    "neutralB": {
+    "neutralMuted": {
       "type": "string",
-      "default": "#f3f3f3"
+      "default": "243 243 243",
+      "regex": "^\\d{1,3}\\s\\d{1,3}\\s\\d{1,3}$"
     }
   }
 }
