@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_elements_faqs",
+  "info": {
+    "name": "FAQ",
+    "description": "An FAQ contains both a question and an answer to said question",
+    "icon": "question"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    }
+  }
+}

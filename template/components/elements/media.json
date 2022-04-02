@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_medias",
+  "info": {
+    "name": "Media",
+    "description": "A Media element wraps a strapi media object and adds styling and configurability to it",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "shadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "roundedCorners": {
+      "type": "boolean",
+      "default": true
+    },
+    "style": {
+      "type": "json"
+    },
+    "embeddedContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.embedded-content"
+    }
+  }
+}

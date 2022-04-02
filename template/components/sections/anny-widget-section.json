@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_anny_widget_sections",
+  "info": {
+    "name": "AnnyWidget",
+    "icon": "anchor",
+    "description": "Embeds the anny bookings widget into a page"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
+    "baseUrl": {
+      "type": "string",
+      "default": "https://anny.co/b"
+    },
+    "darkMode": {
+      "type": "boolean",
+      "default": false
+    },
+    "resource": {
+      "type": "string",
+      "required": true
+    },
+    "placeholderTitle": {
+      "type": "text"
+    },
+    "hideHeader": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

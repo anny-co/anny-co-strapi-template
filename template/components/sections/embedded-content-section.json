@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_sections_embedded_content_sections",
+  "info": {
+    "name": "EmbeddedContentSection",
+    "icon": "dumpster-fire",
+    "description": "An EmbeddedContentSection wraps an iframe with title, description or actions"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "text",
+      "required": false
+    },
+    "options": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.embedding-option"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

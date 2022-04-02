@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_rich_texts",
+  "info": {
+    "name": "RichText",
+    "icon": "text-height",
+    "description": "A RichText is a singular, capsulated text display as a section"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

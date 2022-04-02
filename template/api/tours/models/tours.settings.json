@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tours",
+  "info": {
+    "name": "Tours",
+    "description": "Guided Tours are tutorials designed in strapi and linked to the frontend app"
+  },
+  "options": {
+    "draftAndPublish": true,
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "i18n": {
+        "localized": true
+      }
+    },
+    "startPage": {
+      "type": "string",
+      "required": true,
+      "i18n": {
+        "localized": true
+      }
+    },
+    "label": {
+      "type": "string",
+      "required": false,
+      "i18n": {
+        "localized": true
+      }
+    },
+    "steps": {
+      "type": "dynamiczone",
+      "components": [
+        "tours.step"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

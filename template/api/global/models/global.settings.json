@@ -1,0 +1,63 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "name": "Global",
+    "description": "Global configuration of the pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "favicon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "darkTheme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.theme",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "lightTheme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.theme",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "navigation": {
+      "model": "navigations"
+    },
+    "footer": {
+      "model": "footers"
+    },
+    "metadata": {
+      "model": "metadata"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_gallery_items",
+  "info": {
+    "name": "GalleryItem",
+    "icon": "picture",
+    "description": "A GalleryItem is an image with a title, a label, a text, an action, and contained by a gallery section"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "mediaAnchor": {
+      "type": "string"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    }
+  }
+}

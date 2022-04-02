@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "themes",
+  "info": {
+    "name": "Themes",
+    "description": "To make themes reusable, declare themes with a name inside this collection. Reserved as a future feature"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.theme"
+    }
+  }
+}

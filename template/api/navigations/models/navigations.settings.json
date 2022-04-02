@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigations",
+  "info": {
+    "name": "Navigations",
+    "description": "Navigations contains instances of a navigation such that we can exchange which page uses which navigation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "logoUrl": {
+      "type": "text",
+      "default": "/",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "elements": {
+      "type": "dynamiczone",
+      "components": [
+        "elements.navigation-item",
+        "links.link",
+        "links.button",
+        "layout.spacer"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.navigation-theme",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    }
+  }
+}

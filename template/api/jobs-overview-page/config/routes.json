@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/jobs-overview-page",
+      "handler": "jobs-overview-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/jobs-overview-page",
+      "handler": "jobs-overview-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/jobs-overview-page",
+      "handler": "jobs-overview-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

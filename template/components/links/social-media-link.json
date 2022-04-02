@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_links_social_media_links",
+  "info": {
+    "name": "SocialMediaLink",
+    "icon": "share-alt",
+    "description": "A SocialMediaLink is a reference to a social media platform"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "faIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.font-awesome-icon"
+    }
+  }
+}

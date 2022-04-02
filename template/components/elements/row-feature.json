@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_elements_row_features",
+  "info": {
+    "name": "RowFeature",
+    "icon": "long-arrow-alt-right",
+    "description": "A RowFeature is a two-column item of a FeatureGroup that aligns its contents horizontally"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "media": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.media"
+    },
+    "checklist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.checklist"
+    },
+    "order": {
+      "type": "enumeration",
+      "enum": ["textFirst", "mediaFirst"],
+      "default": "textFirst"
+    }
+  }
+}

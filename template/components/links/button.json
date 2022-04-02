@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_links_buttons",
+  "info": {
+    "name": "Button",
+    "icon": "fingerprint",
+    "description": "A button is the advanced form of a link that is also theme-able and has pre-defined types"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "text"
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": false
+    },
+    "text": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "flat",
+        "outline",
+        "custom"
+      ],
+      "default": "primary"
+    },
+    "showArrow": {
+      "type": "boolean",
+      "default": true
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.button-theme"
+    }
+  }
+}

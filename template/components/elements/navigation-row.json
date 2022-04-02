@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_navigation_rows",
+  "info": {
+    "name": "NavigationRow",
+    "icon": "arrow-right",
+    "description": "A navigation row is a row inside a NavigationColumn, itself contained inside a rich NavigationItem"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "faIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.font-awesome-icon"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "disabled": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

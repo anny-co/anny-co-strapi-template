@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_elements_sub_features",
+  "info": {
+    "name": "SubFeature",
+    "icon": "angle-double-down",
+    "description": "A SubFeature is a small card of a feature description, equiped with an icon, a title, a description and an optional action"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    },
+    "faIcon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.font-awesome-icon"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

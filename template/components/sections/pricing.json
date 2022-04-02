@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_sections_pricings",
+  "info": {
+    "name": "Pricing",
+    "icon": "dollar-sign",
+    "description": "A Pricing Section wraps several plan element components with a description and title"
+  },
+  "options": {},
+  "attributes": {
+    "anchor": {
+      "type": "string",
+      "default": "pricing"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "plans": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.plan"
+    },
+    "theme": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.section-theme"
+    }
+  }
+}

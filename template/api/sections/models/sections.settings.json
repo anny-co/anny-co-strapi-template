@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "name": "Sections",
+    "description": "Declaring sections inside the sections collection type allows us to reference and reuse certain sections inside different pages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "elements": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.main-feature",
+        "sections.feature-row-group",
+        "sections.feature-column-group",
+        "sections.rich-text",
+        "sections.hero",
+        "sections.call-to-action",
+        "sections.pricing",
+        "sections.testimonial-group",
+        "sections.partners",
+        "sections.header-section",
+        "sections.team",
+        "sections.media-section",
+        "sections.newsletter-section",
+        "sections.faq-section",
+        "sections.banner-section",
+        "sections.component-slot",
+        "sections.table-section",
+        "sections.gallery",
+        "sections.embedded-content-section",
+        "sections.full-width-section",
+        "sections.anny-widget-section"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "label": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
