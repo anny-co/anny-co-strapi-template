@@ -15,6 +15,9 @@
       "type": "string",
       "required": true
     },
+    "configuration": {
+      "type": "json"
+    },
     "hidden": {
       "type": "boolean",
       "default": false
