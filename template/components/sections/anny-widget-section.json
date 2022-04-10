@@ -7,25 +7,30 @@
   },
   "options": {},
   "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "default": true
+    },
     "anchor": {
       "type": "string",
       "default": ""
     },
-    "enabled": {
-      "type": "boolean",
-      "default": true
+    "type": {
+      "type": "enumeration",
+      "enum": ["organization", "resource"],
+      "default": "far"
     },
     "baseUrl": {
       "type": "string",
       "default": "https://anny.co/b"
     },
-    "darkMode": {
-      "type": "boolean",
-      "default": false
-    },
-    "resource": {
+    "name": {
       "type": "string",
       "required": true
+    },
+    "service": {
+      "type": "string",
+      "required": false
     },
     "placeholderTitle": {
       "type": "text"
@@ -33,6 +38,21 @@
     "hideHeader": {
       "type": "boolean",
       "default": false
+    },
+    "hideCalendar": {
+      "type": "boolean",
+      "default": false
+    },
+    "hideResourceHeader": {
+      "type": "boolean",
+      "default": false
+    },
+    "hideOrganizationHeader": {
+      "type": "boolean",
+      "default": false
+    },
+    "theme": {
+      "type": "json"
     }
   }
 }
