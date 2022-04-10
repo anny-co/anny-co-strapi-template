@@ -45,11 +45,11 @@
     },
     "hideResourceHeader": {
       "type": "boolean",
-      "default": false
+      "default": true
     },
     "hideOrganizationHeader": {
       "type": "boolean",
-      "default": false
+      "default": true
     },
     "theme": {
       "type": "json"
